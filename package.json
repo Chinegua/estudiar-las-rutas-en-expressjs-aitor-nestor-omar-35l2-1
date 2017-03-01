@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nestor-gm/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/issues"
   },
-  "homepage": "https://github.com/nestor-gm/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2#readme"
+  "homepage": "https://github.com/nestor-gm/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
 }
