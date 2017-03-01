@@ -64,4 +64,4 @@ app.delete('/user', function (req, res) {
   res.send('Got a DELETE request at /user');
 });
 ```
-Para obtener más detalles sobre el direccionamiento, consulte la [guía](express_avanzada.md)
+Para obtener más detalles sobre el direccionamiento, consulte la [guía](express_avanzado.md)
