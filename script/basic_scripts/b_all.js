@@ -15,6 +15,7 @@ app.post('/', function (req, res) {
 
 //Ejemplo put
 
+
 app.put('/user', function (req, res) {
   res.send('Got a PUT request at /user')
 })
