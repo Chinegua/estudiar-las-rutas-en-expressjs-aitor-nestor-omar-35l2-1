@@ -18,6 +18,14 @@ Enlace al GitBook desplegado en el IAAS de la ULL (Omar)
 
 Enlace al GitBook desplegado en Heroku
 
+# Versión gh-pages
+
+Enlace al Gitbook en [gh-pages](https://nestor-gm.github.io/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/)
+
+# Versión GitBook
+
+Enlace al Gitbook en [gitbooks](https://git.gitbook.com/nestor-gm/estudiar-las-rutas-en-expressjs-aitor-nestor-omar.git)
+
 # Autores
 * [Aitor Bernal Falcón](https://chinegua.github.io/)
 * [Néstor García Moreno](https://nestor-gm.github.io/)
