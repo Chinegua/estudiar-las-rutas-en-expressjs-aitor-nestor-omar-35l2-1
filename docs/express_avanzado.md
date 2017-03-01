@@ -1,10 +1,10 @@
 #Express avanzado
 
-##Direccionamiento
+## Direccionamiento
 
 Direccionamiento hace referencia a la definición de puntos finales de aplicación (URI) y cómo responden a las solicitudes de cliente.
 
-```javascript 
+```javascript
 
 var express = require('express');
 var app = express();
@@ -17,12 +17,12 @@ app.get('/', function(req, res) {
 
 ```
 
-##Metodo ruta
+## Metodo ruta
 
 Un método de ruta se deriva de uno de los métodos HTTP y se adjunta a una instancia de la clase express.
 El siguiente código es un ejemplo de las rutas que se definen para los métodos GET y POST a la raíz de la aplicación.
 
-```javascript 
+```javascript
 
 // GET method route
 app.get('/', function (req, res) {
@@ -43,7 +43,7 @@ Hay un método de direccionamiento especial, app.all(), que no se deriva de ning
 
 En el siguiente ejemplo, el manejador se ejecutará para las solicitudes a “/secret”, tanto si utiliza GET, POST, PUT, DELETE, como cualquier otro método de solicitud HTTP soportado en el módulo http.
 
-```javascript 
+```javascript
 
 app.all('/secret', function (req, res, next) {
   console.log('Accessing the secret section ...');
@@ -53,7 +53,7 @@ app.all('/secret', function (req, res, next) {
 
 ```
 
-##Vías de acceso de ruta
+## Vías de acceso de ruta
 
 Las vías de acceso de ruta, en combinación con un método de solicitud, definen los puntos finales en los que pueden realizarse las solicitudes. Las vías de acceso de ruta pueden ser series, patrones de serie o expresiones regulares.
 
@@ -62,7 +62,7 @@ Estos son algunos ejemplos de vías de acceso de ruta basadas en series.
 Esta vía de acceso de ruta coincidirá con las solicitudes a la ruta raíz, /.
 
 
-```javascript 
+```javascript
 
 app.get('/', function (req, res) {
   res.send('root');
@@ -74,7 +74,7 @@ app.get('/', function (req, res) {
 Esta vía de acceso de ruta coincidirá con abcd, abxcd, abRABDOMcd, ab123cd, etc.
 
 
-```javascript 
+```javascript
 
 app.get('/ab*cd', function(req, res) {
   res.send('ab*cd');
@@ -83,7 +83,7 @@ app.get('/ab*cd', function(req, res) {
 
 ```
 
-##Manejadores de rutas
+## Manejadores de rutas
 
 Puede proporcionar varias funciones de devolución de llamada que se comportan como middleware para manejar una solicitud. La única excepción es que estas devoluciones de llamada pueden invocar next('route') para omitir el resto de las devoluciones de llamada de ruta. Puede utilizar este mecanismo para imponer condiciones previas en una ruta y, a continuación, pasar el control a las rutas posteriores si no hay motivo para continuar con la ruta actual.
 
@@ -91,7 +91,7 @@ Los manejadores de rutas pueden tener la forma de una función, una matriz de fu
 
 Una función de devolución de llamada individual puede manejar una ruta. Por ejemplo:
 
-```javascript 
+```javascript
 
 
 app.get('/example/a', function (req, res) {
@@ -102,7 +102,7 @@ app.get('/example/a', function (req, res) {
 ```
 
 Más de una función de devolución de llamada puede manejar una ruta (asegúrese de especificar el objeto next). Por ejemplo:
-```javascript 
+```javascript
 
 
 app.get('/example/b', function (req, res, next) {
@@ -117,7 +117,7 @@ app.get('/example/b', function (req, res, next) {
 
 Una matriz de funciones de devolución de llamada puede manejar una ruta. Por ejemplo:
 
-```javascript 
+```javascript
 
 
 var cb0 = function (req, res, next) {
@@ -141,7 +141,7 @@ app.get('/example/c', [cb0, cb1, cb2]);
 Una combinación de funciones independientes y matrices de funciones puede manejar una ruta. Por ejemplo:
 
 
-```javascript 
+```javascript
 
 
 var cb0 = function (req, res, next) {
@@ -164,16 +164,24 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 ```
 
-##Métodos de respuesta
+## Métodos de respuesta
 
 ** res.download(): ** Solicita un archivo para descargarlo.
+
 ** res.end(): ** Finaliza el proceso de respuesta.
+
 ** res.json() ** Envía una respuesta JSON.
+
 ** res.jsonp() ** Envía una respuesta JSON con soporte JSONP.
+
 ** res.redirect() ** Redirecciona una solicitud.
+
 ** res.render() ** Representa una plantilla de vista.
+
 ** res.send() ** Envía una respuesta de varios tipos.
+
 ** res.sendFile ** Envía un archivo como una secuencia de octetos.
+
 ** res.sendStatus() ** Establece el código de estado de la respuesta y envía su representación de serie como el cuerpo de respuesta.
 
 ## app.route()
@@ -183,7 +191,7 @@ Puede crear manejadores de rutas encadenables para una vía de acceso de ruta ut
 A continuación, se muestra un ejemplo de manejadores de rutas encadenados que se definen utilizando app.route().
 
 
-```javascript 
+```javascript
 
 app.route('/book')
   .get(function(req, res) {
@@ -198,4 +206,3 @@ app.route('/book')
 
 
 ```
-
