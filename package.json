@@ -19,5 +19,11 @@
   "homepage": "https://github.com/nestor-gm/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2#readme",
   "devDependencies": {
     "gh-pages": "^0.12.0"
+  },
+  "engines": {
+    "node": "7.1.0"
+  },
+  "dependencies": {
+    "express": "^4.14.1"
   }
 }
