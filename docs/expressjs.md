@@ -2,7 +2,7 @@
 # Primeros pasos en ExpressJS
 
 
-* Instalando ExpressJS
+## Instalando ExpressJS
 
 
 Suponiendo que ya haya instalado Node.js, cree un directorio que contenga su aplicación y haga que sea su directorio de trabajo.
@@ -19,13 +19,13 @@ Para añadirlo a las dependencias `--save`
 
 
 
-* Introducción a ExpressJS
+## Introducción a ExpressJS
 
-Enrutamiento se refiere a determinar cómo una aplicación responde a una solicitud de cliente a un extremo determinado, que es un URI (o ruta) y un método de solicitud HTTP específico (GET, POST, etc.).
+Direccionamiento se refiere a determinar cómo una aplicación responde a una solicitud de cliente a un extremo determinado, que es un URI (o ruta) y un método de solicitud HTTP específico (GET, POST, etc.).
 Cada ruta puede tener una o más funciones del manejador, que se ejecutan cuando la ruta es correspondida
 La definición de ruta tiene la siguiente estructura
 
-```
+```javascript
 app.METHOD(PATH, HANDLER)
 ```
 
@@ -40,26 +40,26 @@ Dónde:
 __Ejemplos:__
 
 Responda con Hello World! en la página inicial:
-```
+```javascript
 app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 ```
 Responda a la solicitud POST en la ruta raíz (/), la página de inicio de la aplicación:
-```
+```javascript
 app.post('/', function (req, res) {
   res.send('Got a POST request')
 })
 ```
 Responda a una solicitud PUT en la ruta /user:
-```
+```javascript
 app.put('/user', function (req, res) {
   res.send('Got a PUT request at /user')
 })
 ```
 Responda a una solicitud DELETE en la ruta /user:
 
-```
+```javascript
 app.delete('/user', function (req, res) {
   res.send('Got a DELETE request at /user');
 });
