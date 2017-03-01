@@ -9,14 +9,22 @@ El concepto de Infraestructura como Servicio (IaaS, Infrastructure as a Service)
 
 Enlace al GitBook desplegado en el IAAS de la ULL (Aitor)
 
-Enlace al GitBook desplegado en el IAAS de la ULL (Néstor)
+Enlace al GitBook desplegado en el IAAS de la ULL [(Néstor)](http://10.6.128.125:8081/)
 
 Enlace al GitBook desplegado en el IAAS de la ULL (Omar)
 
 # Versión HEROKU
 [Heroku](https://devcenter.heroku.com/categories/learning) es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación.
 
-Enlace al GitBook desplegado en Heroku
+Enlace al GitBook desplegado en [Heroku](https://dsipractica3.herokuapp.com/)
+
+# Versión gh-pages
+
+Enlace al Gitbook en [gh-pages](https://nestor-gm.github.io/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/)
+
+# Versión GitBook
+
+Enlace al Gitbook en [gitbooks](https://git.gitbook.com/nestor-gm/estudiar-las-rutas-en-expressjs-aitor-nestor-omar.git)
 
 # Autores
 * [Aitor Bernal Falcón](https://chinegua.github.io/)
