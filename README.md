@@ -24,7 +24,7 @@ Enlace al Gitbook en [gh-pages](https://nestor-gm.github.io/estudiar-las-rutas-e
 
 # Versión GitBook
 
-Enlace al Gitbook en [gitbooks](https://git.gitbook.com/nestor-gm/estudiar-las-rutas-en-expressjs-aitor-nestor-omar.git)
+Enlace al Gitbook en [gitbooks](https://nestor-gm.gitbooks.io/estudiar-las-rutas-en-expressjs-aitor-nestor-omar/)
 
 # Autores
 * [Aitor Bernal Falcón](https://chinegua.github.io/)
