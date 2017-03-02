@@ -166,23 +166,23 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 ## Métodos de respuesta
 
-** res.download(): ** Solicita un archivo para descargarlo.
+**res.download():** Solicita un archivo para descargarlo.
 
-** res.end(): ** Finaliza el proceso de respuesta.
+**res.end():** Finaliza el proceso de respuesta.
 
-** res.json() ** Envía una respuesta JSON.
+**res.json()** Envía una respuesta JSON.
 
-** res.jsonp() ** Envía una respuesta JSON con soporte JSONP.
+**res.jsonp()** Envía una respuesta JSON con soporte JSONP.
 
-** res.redirect() ** Redirecciona una solicitud.
+**res.redirect()** Redirecciona una solicitud.
 
-** res.render() ** Representa una plantilla de vista.
+**res.render()** Representa una plantilla de vista.
 
-** res.send() ** Envía una respuesta de varios tipos.
+**res.send()** Envía una respuesta de varios tipos.
 
-** res.sendFile ** Envía un archivo como una secuencia de octetos.
+**res.sendFile** Envía un archivo como una secuencia de octetos.
 
-** res.sendStatus() ** Establece el código de estado de la respuesta y envía su representación de serie como el cuerpo de respuesta.
+**res.sendStatus()** Establece el código de estado de la respuesta y envía su representación de serie como el cuerpo de respuesta.
 
 ## app.route()
 

@@ -20,3 +20,19 @@ gulp.task('basic4', shell.task([
 gulp.task('basicall', shell.task([
   'node basic_scripts/b_all.js'
 ]));
+
+gulp.task('all_function', shell.task([
+  'node medium_scripts/all.js'
+]));
+
+gulp.task('expr_reg', shell.task([
+  'node medium_scripts/get-expreg.js'
+]));
+
+gulp.task('matrix', shell.task([
+  'node medium_scripts/matrix.js'
+]));
+
+gulp.task('next', shell.task([
+  'node medium_scripts/next-sample.js'
+]));
