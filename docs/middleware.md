@@ -54,6 +54,8 @@ A continuación, se muestra un ejemplo de una aplicación Express simple, “Hel
 ```
 Esta pequeña aplicación Express, envía una respuesta con el mensaje 'Hello World' por el puerto 3000, mediante Express.
 
+* Un ejemplo completo sobre el uso de [middlewares en ExpressJS](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/medium_scripts/next-sample.js)
+
 ### Desarrollo
 Este es un ejemplo simple de una función de middleware denominada “myLogger”. Esta función simplemente imprime “LOGGED” cuando una solicitud de la aplicación pasa por ella. La función de middleware se asigna a una variable denominada myLogger.
 ```javascript

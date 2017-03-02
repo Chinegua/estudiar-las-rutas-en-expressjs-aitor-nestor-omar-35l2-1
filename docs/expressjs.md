@@ -45,18 +45,24 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 ```
+* Un ejemplo funcional del [método de solicitud GET](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/basic_scripts/b1-get.js)
+
 Responda a la solicitud POST en la ruta raíz (/), la página de inicio de la aplicación:
 ```javascript
 app.post('/', function (req, res) {
   res.send('Got a POST request')
 })
 ```
+* Un ejemplo funcional del [método de solicitud POST](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/basic_scripts/b2-post.js)
+
 Responda a una solicitud PUT en la ruta /user:
 ```javascript
 app.put('/user', function (req, res) {
   res.send('Got a PUT request at /user')
 })
 ```
+* Un ejemplo funcional del [método de solicitud PUT](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/basic_scripts/b3-put.js)
+
 Responda a una solicitud DELETE en la ruta /user:
 
 ```javascript
@@ -64,4 +70,8 @@ app.delete('/user', function (req, res) {
   res.send('Got a DELETE request at /user');
 });
 ```
+* Un ejemplo funcional del [método de solicitud DELETE](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/basic_scripts/b4-delete.js)
+
+* Ejemplo con los diferentes [métodos de solicitud HTTP](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/basic_scripts/b_all.js) en ExpressJS
+
 Para obtener más detalles sobre el direccionamiento, consulte la [guía](express_avanzado.md)
