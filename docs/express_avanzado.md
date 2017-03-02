@@ -17,6 +17,8 @@ app.get('/', function(req, res) {
 
 ```
 
+* Un ejemplo de [direccionamiento](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/medium_scripts/b1-get.js)
+
 ## Metodo ruta
 
 Un método de ruta se deriva de uno de los métodos HTTP y se adjunta a una instancia de la clase express.
@@ -82,6 +84,8 @@ app.get('/ab*cd', function(req, res) {
 
 
 ```
+
+* Un ejemplo de [vías de acceso de ruta](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/medium_scripts/get-expreg.js)
 
 ## Manejadores de rutas
 
@@ -163,6 +167,8 @@ app.get('/example/d', [cb0, cb1], function (req, res, next) {
 
 
 ```
+
+* Un ejemplo funcional de [combinación de funciones/matrices de funciones](https://github.com/ozzrocker95/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/blob/master/src/medium_scripts/matrix.js)
 
 ## Métodos de respuesta
 
