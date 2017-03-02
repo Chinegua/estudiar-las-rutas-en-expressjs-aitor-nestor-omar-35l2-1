@@ -20,7 +20,7 @@ Enlace al GitBook desplegado en [Heroku](https://dsipractica3.herokuapp.com/)
 
 # Versión gh-pages
 
-Enlace al Gitbook en [gh-pages](https://nestor-gm.github.io/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/)
+Enlace al Gitbook en [gh-pages](https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-aitor-nestor-omar-35l2/middleware.html)
 
 # Versión GitBook
 
